@@ -1,5 +1,7 @@
 require 'fileutils'
-require 'benchmark'
+
+
+require 'benchmark'//我是新加的！
 require 'rubygems'
 require 'ruby-prof'
 require 'memcache'
@@ -125,5 +127,7 @@ def in_temp_dir(remove_after = true)
 end
 
 main()
+
+!!!
 
 ##pp Grit::GitRuby.cache_client.stats 
